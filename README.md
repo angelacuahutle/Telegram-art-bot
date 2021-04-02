@@ -14,8 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link] (n/a)
 
 ## Getting Started
 
@@ -46,11 +45,13 @@ Ready to run!
 
 ### Usage
 
-
+- Search clave_cura_bot
+- say hello 
+- The bot returns random and cool art!
+- Want to see more?
+- Say hello again!
 
 ### Run tests
-
-### Deployment
 
 
 

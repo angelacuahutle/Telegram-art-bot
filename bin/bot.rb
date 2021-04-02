@@ -1,7 +1,6 @@
-# require './lib/bot.rb'
+# frozen_string_literal: true
 require 'telegram/bot'
-
-token ='1713703261:AAFEZEjpEH1P9jnutJahXpAEyAVmcCx5ziQ'
+token = '1713703261:AAFEZEjpEH1P9jnutJahXpAEyAVmcCx5ziQ'
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
     case message.text
