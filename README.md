@@ -60,8 +60,8 @@ Ready to run!
 👤 **Author1**
 
 - GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
-- Twitter: [@twitterhandle](https://twitter.com/AngelaCunaDev)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/angela-cuahutle/)
+- Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCunaDev)
+- LinkedIn: [https://www.linkedin.com/in/angela-cuahutle/](https://www.linkedin.com/in/angela-cuahutle/)
 
 ## 🤝 Contributing
 

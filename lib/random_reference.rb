@@ -1,18 +1,19 @@
+# frozen_string_literal: true
+
 require 'telegram/bot'
 require 'net/http'
 require 'json'
-require_relative 'bot.rb'
 
 class RandomReference
-    :attr_reader :reference
+  attr_reader :reference
 
-    CATALGUE_OF_REFERENCES=["Hannah Black", "Dani de la Torre", "Monique wite"]
+  CATALGUE_OF_REFERENCES = %w[Hannah Dani Monique].freeze
 
-    def initialize 
-     @reference=reference 
-    end
+  def initialize
+    @reference = reference
+  end
 
-    def generate 
-        new_generated_reference = CATALGUE_OF_REFERENCES.sample
-    end  
+  def generate
+    CATALGUE_OF_REFERENCES.sample
+  end
 end
