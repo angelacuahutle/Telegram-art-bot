@@ -7,8 +7,12 @@ require 'json'
 class RandomReference
   attr_reader :reference
 
-  CATALGUE_OF_REFERENCES = %w[Hannah Dani Monique].freeze
-
+  CATALGUE_OF_REFERENCES = [
+    'https://vimeo.com/hannahblack'
+    'http://clavel.be/'
+    'https://www.patreon.com/DanidelaTower?l=es'
+    'https://www.instagram.com/p/CMz-ykqDzLX/'
+  ].freeze
   def initialize
     @reference = reference
   end
