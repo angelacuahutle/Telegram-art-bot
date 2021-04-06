@@ -7,10 +7,10 @@ require 'json'
 class RandomReference
   attr_reader :reference
 
-  CATALGUE_OF_REFERENCES = [
-    'https://vimeo.com/hannahblack'
-    'http://clavel.be/'
-    'https://www.patreon.com/DanidelaTower?l=es'
+  CATALOGUE_OF_REFERENCES = [
+    'https://vimeo.com/hannahblack',
+    'http://clavel.be/',
+    'https://www.patreon.com/DanidelaTower?l=es',
     'https://www.instagram.com/p/CMz-ykqDzLX/'
   ].freeze
   def initialize
@@ -18,6 +18,6 @@ class RandomReference
   end
 
   def generate
-    CATALGUE_OF_REFERENCES.sample
+    CATALOGUE_OF_REFERENCES.sample
   end
 end
