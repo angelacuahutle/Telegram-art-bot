@@ -46,19 +46,22 @@ Ready to run!
 ### Usage
 
 - Search clave_cura_bot
-- Use the comand ```/start```
-- Then request the bot ```/showmesomething```
+- Use the comand ```/letsstart```
+- Then request the bot ```/iwantsomeartsuggestions```
 - The bot returns random and cool art! 
-- Want to see more?
-- Say hello again by using the comand!! ```/start```
+- Want to see more? Use the command again ```/iwantsomeartsuggestions```
+- Say hello again by using the comand!! ```/letsstart```
 
 ### Run tests
 
+- In order to make test run the command 
+
+```ruby
+rspec spec/bot_test.rb
+```
 
 
-## Authors
-
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
 - Twitter: [@AngelaCunaDev](https://twitter.com/AngelaCunaDev)
