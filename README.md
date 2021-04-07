@@ -46,10 +46,11 @@ Ready to run!
 ### Usage
 
 - Search clave_cura_bot
-- say hello 
-- The bot returns random and cool art!
+- Use the comand ```/start```
+- Then request the bot ```/showmesomething```
+- The bot returns random and cool art! 
 - Want to see more?
-- Say hello again!
+- Say hello again by using the comand!! ```/start```
 
 ### Run tests
 

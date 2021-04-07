@@ -2,3 +2,4 @@
 
 source 'https://rubygems.org'
 gem 'telegram-bot-ruby', '~> 0.15.0'
+gem 'rspec', '~> 3.9'
