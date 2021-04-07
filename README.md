@@ -2,7 +2,7 @@
 > Telegram-art-bot made to curate contemporary art base in tendencies. This bot will help you acces to refferences of an art curator 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](./ar-bot.png)
+![screenshot](./botcaption.png)
 
 Additional description about the project and its features.
 
