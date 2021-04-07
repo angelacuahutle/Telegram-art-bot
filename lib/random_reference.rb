@@ -4,6 +4,7 @@ require 'telegram/bot'
 require 'net/http'
 require 'json'
 
+#this class provides random art references to the bot
 class RandomReference
   attr_reader :reference
 

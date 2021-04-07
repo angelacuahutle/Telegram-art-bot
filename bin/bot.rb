@@ -15,7 +15,8 @@ Telegram::Bot::Client.run(token) do |bot|
     when '/stop'
       bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}")
     else
-      bot.api.send_message(chat_id: message.chat.id, text: "Sorry, #{message.from.first_name}, I don't recognize that instruction")
+      bot.api.send_message(chat_id: message.chat.id,
+                           text: "Sorry, #{message.from.first_name}, I don't recognize that instruction")
     end
   end
 end
