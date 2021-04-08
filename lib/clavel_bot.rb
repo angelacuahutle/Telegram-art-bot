@@ -1,0 +1,20 @@
+require 'telegram/bot'
+
+class ClavelBot
+  def run_clavel_bot(message)
+    bot.listen do |message|
+      case message.text
+      when '/letsstart'
+        bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}")
+      when '/iwantsomeartsuggestions'
+        new_reference = RandomReference.new
+        bot.api.send_message(chat_id: message.chat.id, text: "Clavel wants you to see this! #{new_reference.generate}")
+      when '/stop'
+        bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}")
+      else
+        bot.api.send_message(chat_id: message.chat.id,
+                              text: "Sorry, #{message.from.first_name}, I don't recognize that instruction")
+      end
+    end
+  end
+end
