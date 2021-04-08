@@ -1,7 +1,7 @@
 require 'telegram/bot'
 require_relative '../lib/random_reference'
 
-token = '1713703261:AAFEZEjpEH1P9jnutJahXpAEyAVmcCx5ziQ'
+token = ''
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
     case message.text
