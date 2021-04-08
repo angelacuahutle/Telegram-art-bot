@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # spec/game_test.rb
 
 require_relative '../lib/random_reference'
