@@ -1,7 +1,8 @@
 require 'telegram/bot'
 
 class ClavelBot
-  def run_clavel_bot(message)
+  token = ''
+  Telegram::Bot::Client.run(token) do |bot|
     bot.listen do |message|
       case message.text
       when '/letsstart'
