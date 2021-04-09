@@ -1,4 +1,5 @@
 require 'telegram/bot'
+require 'byebug'
 
 class ClavelBot
 
@@ -7,6 +8,7 @@ class ClavelBot
   end
   
   def reply_message(message, bot)
+    byebug
     case message.text
     when '/letsstart'
       bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}")
@@ -22,7 +24,7 @@ class ClavelBot
   end
     
   def start_telegram_bot
-    token = '1713703261:AAFEZEjpEH1P9jnutJahXpAEyAVmcCx5ziQ'
+    token = ''
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
         self.reply_message(message, bot)

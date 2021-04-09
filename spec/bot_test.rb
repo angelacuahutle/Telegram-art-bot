@@ -1,6 +1,7 @@
 # spec/game_test.rb
 
 require_relative '../lib/random_reference'
+require_relative '../lib/clavel_bot'
 
 describe RandomReference do
   describe '#generate' do
@@ -13,12 +14,12 @@ end
 
 describe ClavelBot do
   describe '#reply_message' do
-    # let(:reference) { RandomReference.new }
+    let(:clavel) {ClavelBot.new.start_telegram_bot}
     it 'doesnt recognize your command' do
-      expect(ClavelBot.run_clavel_bot('/strarsot')).to include("I don't recognize that instruction")
+      expect(clavel.reply_message '/strarsot').to include("I don't recognize that instruction")
     end
     it 'recognize your command' do
-      expect(ClavelBot.run_clavel_bot('/letsstart')).to include("Hello,")
+      expect(clavel.reply_message '/letsstart').to include("Hello,")
     end
   end
 end
