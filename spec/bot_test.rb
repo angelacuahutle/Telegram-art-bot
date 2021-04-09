@@ -12,13 +12,13 @@ describe RandomReference do
 end
 
 describe ClavelBot do
-  describe '#run_clavel_bot' do
+  describe '#reply_message' do
     # let(:reference) { RandomReference.new }
     it 'doesnt recognize your command' do
       expect(ClavelBot.run_clavel_bot('/strarsot')).to include("I don't recognize that instruction")
     end
     it 'recognize your command' do
-      expect(ClavelBot.run_clavel_bot('/letsstart')).to include("I don't recognize that instruction")
+      expect(ClavelBot.run_clavel_bot('/letsstart')).to include("Hello,")
     end
   end
 end
