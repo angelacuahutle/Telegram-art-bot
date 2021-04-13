@@ -23,7 +23,7 @@ class ClavelBot
   end
     
   def start_telegram_bot
-    token = '1713703261:AAFEZEjpEH1P9jnutJahXpAEyAVmcCx5ziQ'
+    token = ''
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
         self.reply_message(message, bot)
