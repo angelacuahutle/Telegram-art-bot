@@ -14,12 +14,12 @@ end
 
 describe ClavelBot do
   describe '#reply_message' do
-    let(:clavel) {ClavelBot.new.start_telegram_bot}
+    let(:clavel) { ClavelBot.new.start_telegram_bot }
     it 'doesnt recognize your command' do
-      expect(clavel.reply_message '/strarsot').to include("I don't recognize that instruction")
+      expect(clavel.reply_message('/strarsot')).to include("I don't recognize that instruction")
     end
     it 'recognize your command' do
-      expect(clavel.reply_message '/letsstart').to include("Hello,")
+      expect(clavel.reply_message('/letsstart')).to include('Hello,')
     end
   end
 end

@@ -2,11 +2,10 @@ require 'telegram/bot'
 require 'byebug'
 
 class ClavelBot
-
   def initialize
     start_telegram_bot
   end
-  
+
   def reply_message(message, bot)
     case message.text
     when '/letsstart'
@@ -18,15 +17,15 @@ class ClavelBot
       bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}")
     else
       bot.api.send_message(chat_id: message.chat.id,
-        text: "Sorry, #{message.from.first_name}, I don't recognize that instruction")
+                           text: "Sorry, #{message.from.first_name}, I don't recognize that instruction")
     end
   end
-    
+
   def start_telegram_bot
     token = ''
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
-        self.reply_message(message, bot)
+        reply_message(message, bot)
       end
     end
   end
