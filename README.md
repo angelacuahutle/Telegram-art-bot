@@ -1,10 +1,8 @@
 # Telegram-art-bot
-> Telegram-art-bot made to curate contemporary art base in tendencies. This bot will help you acces to refferences of an art curator 
+> Telegram-art-bot made to curate contemporary art base and art  tendencies. This bot will help you acces to refferences of an art curator 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ![screenshot](./botcaption.png)
-
-Additional description about the project and its features.
 
 ## Built With
 
@@ -18,11 +16,12 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**In order to set up the project locally, you just need to run bundle install to install the required gems on your computer.**
 
 
 To get a local copy up and running follow these simple example steps.
+
+- Clone the repository with the following command: git clone
 
 ### Prerequisites
 
@@ -60,7 +59,6 @@ Ready to run!
 rspec spec/bot_test.rb
 ```
 
-
 👤 **Author**
 
 - GitHub: [@angelacuahutle](https://github.com/angelacuahutle)
@@ -76,12 +74,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
