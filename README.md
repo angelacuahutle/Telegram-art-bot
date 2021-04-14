@@ -1,5 +1,5 @@
 # Telegram-art-bot
-> Telegram-art-bot made to curate contemporary art base and art  tendencies. This bot will help you acces to refferences of an art curator 
+> This is a Telegram-art-bot made to curate contemporary art base and art tendencies. This bot will help you access references of an art curator 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ![screenshot](./botcaption.png)
@@ -37,8 +37,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Click on the "code" button above on this page and copy the link to the repository
 - Open a terminal (CTRL + ALT + T), type git clone and paste the link you copied in the previous step, then hit Enter Ex: ‘git clone https://github.com/angelacuahutle/Telegram-art-bot’
-- Serch for the appropriate token
-- Set the fuctionalities with ruby 
+- Search for the appropriate token
+- Set the functionalities with ruby 
 
 Ready to run!
 
@@ -49,11 +49,11 @@ Ready to run!
 - Then request the bot ```/iwantsomeartsuggestions```
 - The bot returns random and cool art! 
 - Want to see more? Use the command again ```/iwantsomeartsuggestions```
-- Say hello again by using the comand!! ```/letsstart```
+- Say hello again by using the command!! ```/letsstart```
 
 ### Run tests
 
-- In order to make test run the command 
+- In order to make a test run the command 
 
 ```ruby
 rspec spec/bot_test.rb
