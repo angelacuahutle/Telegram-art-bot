@@ -2,7 +2,7 @@
 > This is a Telegram-art-bot made to curate contemporary art base and art tendencies. This bot will help you access references of an art curator 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![screenshot](./botcaption.png)
+![screenshot](./assets/art-bot.png)
 
 ## Built With
 
